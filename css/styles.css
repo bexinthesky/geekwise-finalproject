@@ -125,6 +125,23 @@ li.dropdown {
     font-size: 50px;
 }
 
+#banner-ac {
+     background-image: url('../images/banner-copy.jpg');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: cover;
+}
+
+.banner-ac-top {
+    color: #ffffff;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+    margin-top: 15px;
+    outline-color: #000000;
+}
+
 /*Footer*/
 .fa-facebook-square {
     color: #3b5998;
@@ -174,10 +191,40 @@ li.dropdown {
 }
 
 /*Mercy*/
-#mercy-img {
-    height: 600px;
+#banner-text-m {
+    outline-color: #cc3300;
+    color: #ffffff;
     text-align: center;
-    padding: 10px;
+    line-height: 400px;
+    font-size: 50px;
+}
+
+#mg-btn {
+    float: left;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 25px;
+    border: 1px #331a00 solid;
+    display: block;
+    width: 30%;
+    text-decoration: none;
+}
+
+#tp-btn {
+    float: left;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 25px;
+    border: 1px #331a00 solid;
+    display: block;
+    width: 30%;
+    text-decoration: none;
 }
 
 .m-second {
@@ -190,22 +237,31 @@ li.dropdown {
 
 .m-h {
     margin: 10px;
-    padding: 10px
+    padding: 10px;
     text-align: center;
 }
 
 .m-img {
     text-align: center;
+    display: block;
+    margin: 10px;
     padding: 10px;
     width: 100%;
 }
 
+.center {
+    text-align: center;
+}
+
 .m-p {
+    width: 100%;
     text-align: center;
     margin: 5px;
     padding: 10px;
     border: 1px solid #990000;
+    display: block;
 }
+
 /*Mercy's Garage*/
 #garage-banner {
     width: 30%;
@@ -236,7 +292,6 @@ li.dropdown {
 }
 
 /*The Pack*/
-
 #pack-banner {
     width: 40%;
     height: 350px;
@@ -296,6 +351,9 @@ span:hover + .info-rgt {
     text-align: center;
     margin: 20px;
     padding: 20px;
+    color: #cc4400;
+    padding: 30px;
+    font-size: 25px;
 }
 
 .pack-right {
@@ -305,6 +363,9 @@ span:hover + .info-rgt {
     text-align: center;
     margin: 20px;
     padding: 20px;
+    color: #cc4400;
+    padding: 30px;
+    font-size: 25px;
 }
  
 /*About Page*/
@@ -328,14 +389,6 @@ span:hover + .info-rgt {
 }
 
 /*Contact Page*/
-#banner-ac {
-     background-image: url('../images/banner-copy.jpg');
-    width: 100%;
-    height: 350px;
-    background-size: cover;
-    background-position: cover;
-}
-
 #c-txt {
     text-align: center;
     font-size: 60px;
