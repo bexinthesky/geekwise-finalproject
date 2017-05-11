@@ -54,6 +54,7 @@ header {
     float: left;
     line-height: 60px;
     margin: 5px;
+    color: #ffffff;
 }
 
 ul {
@@ -173,32 +174,17 @@ li.dropdown {
 }
 
 /*Mercy*/
-#m-title {
-    position: inline-block;
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-}
-
 #mercy-img {
     height: 600px;
     text-align: center;
     padding: 10px;
 }
 
-#mercy-p {
-    text-align: center;
-    float: left;
-    margin: 5px 5px 5px 60px;
-    padding: 10px;
-    width: 25%;
-    border: 1px solid #990000;
-}
-
 .m-second {
-    width: 25%;
-    float: right;
+    width: 29%;
+    float: left;
     margin: 10px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -211,6 +197,7 @@ li.dropdown {
 .m-img {
     text-align: center;
     padding: 10px;
+    width: 100%;
 }
 
 .m-p {
@@ -278,7 +265,7 @@ li.dropdown {
     backface-visibility: hidden;
 }
 
-.info-ch {
+.info-lft {
     background-color: #000000;
     display: none;
     color: #ffffff;
@@ -286,32 +273,36 @@ li.dropdown {
     text-align: center;
 }
 
-span:hover + .info-ch {
+.info-rgt {
+    background-color: #000000;
+    display: none;
+    color: #ffffff;
+    width: 30%;
+    text-align: center;
+}
+
+span:hover + .info-lft {
     display: inline-block;
 }
 
-.center {
+span:hover + .info-rgt {
     display: inline-block;
-    clear: left;
-    clear: right;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    width: 300px;
 }
 
 .pack-left {
     float: left;
-    clear: right;
     display: inline-block;
+    width: 25%;
+    text-align: center;
     margin: 20px;
     padding: 20px;
 }
 
 .pack-right {
     float: right;
-    clear: right;
     display: inline-block;
+    width: 25%;
+    text-align: center;
     margin: 20px;
     padding: 20px;
 }
